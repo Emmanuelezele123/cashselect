@@ -1,0 +1,1890 @@
+@font-face {
+    font-family: cashselect;
+    src: url(GOOGLESANS-BOLD.TTF);
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: cashselect;
+     src: url(GOOGLESANS-BOLD.TTF);
+    
+   }
+   @font-face {
+    font-family: cashselect-header;
+    src: url(SFSPORTSNIGHTNS.TTF);
+   }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cashselect;
+
+}
+
+.span {
+    color: #fff;
+}
+
+.container {
+    background: black;
+    width: 100%;
+    font-family: cashselect;
+
+}
+
+.head {
+    background: #4D4B4D;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.a {
+    flex: 7.5;
+
+}
+
+.b {
+    flex: 2.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.b img {
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+.predict-tuts {
+    background: white;
+    width: 11rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.predict-tuts div {
+    margin-left: 0.5rem;
+    font-family: cashselect;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #439539;
+}
+
+.predict-tuts img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.header {
+    width: 100%;
+    height: 7rem;
+    background: black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header .aa {
+    flex: 7;
+    display: flex;
+    align-items: center;
+}
+
+.header .aa .text {
+    margin-left: 3rem;
+    font-family: cashselect-header;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #439539;
+}
+
+.bp {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bs {
+    flex: 3;
+
+}
+
+.prof-d {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bs-a {
+    font-family: cashselect;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    align-self: flex-end;
+}
+
+.bs-b {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: cashselect;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    align-self: flex-end;
+}
+
+.bs-c {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35%;
+    justify-content: space-between;
+}
+
+.bs-c button {
+    width: 45%;
+    align-items: center;
+    font-family: cashselect;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: white;
+    background: #439539;
+    border: 0;
+}
+
+.button-container {
+    width: 23rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-container button {
+    width: 10rem;
+    height: 100%;
+    background: #439539;
+    color: white;
+    font-family: cashselect;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.nav {
+    cursor: pointer;
+    display: none;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.n {
+
+    height: 4rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+
+    width: 8rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.a1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-family: cashselect;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.n-guard {
+    width: 100%;
+    height: 4rem;
+    background: #4D4B4D;
+}
+
+.body {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.body .a {
+    flex: 2;
+
+
+}
+
+.body .b {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.body .c {
+    flex: 2;
+
+}
+
+.league-container {
+    margin-top: 1rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.league-container div {
+    height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.league-container div .im {
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.league-container div .ima {
+    margin-left: 1rem;
+    width: 1.3rem;
+    height: 1.5rem;
+}
+
+.lea {
+    margin-left: 1.5rem;
+}
+
+.league-container .head {
+    background: #439539;
+    font-family: cashselect;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.league-container .diva {
+    background: black;
+    font-family: cashselect;
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #fff;
+    border: 0.2rem white solid;
+}
+
+.market-image {
+    width: 100%;
+    height: 10rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-image: url('BW_GH_Multi_WhyBetway_Desktop_updated.webp');
+    background-size: cover;
+}
+
+.market-image div {
+    margin-top: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: burlywood;
+}
+
+.odds-center {
+    margin-top: 1rem;
+    width: 100%;
+
+}
+
+.odds-center .head {
+    width: 100%;
+    height: 3rem;
+    background: #439539;
+    font-family: cashselect;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.odds-center .head div {
+    margin-left: 2rem;
+}
+
+.odds-center .head img {
+    margin-right: 2rem;
+    width: 1.3rem;
+    height: 1.5rem;
+}
+
+.prediction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prediction-item {
+    width: 100%;
+}
+
+.prediction-item .all {
+    background: #707070;
+    width: 100%;
+    height: 3rem;
+    font-family: cashselect;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prediction-item .all div {
+    margin-left: 2rem;
+}
+
+.prediction-item .b {
+    border: 0.5px#ccc solid;
+    width: 100%;
+    height: 6rem;
+    font-family: cashselect;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    align-items: center;
+    justify-content: center;
+}
+
+.vs {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    align-items: center;
+    justify-content: center;
+}
+
+.first img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.second img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.prediction-item .ca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prediction-item .ca .amtt-btn {
+    width: 49%;
+    height: 4rem;
+    background: #439539;
+    color: white;
+    font-family: cashselect;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+.sponspor {
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: cashselect;
+
+    font-size: 1.5rem;
+}
+
+.sponsp-contain {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.sponsp-contain div img {
+
+
+    width: 10rem;
+    height: 6rem;
+}
+
+.contact {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    background: #707070;
+}
+
+.c {
+
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.d {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.c div #con {
+    align-self: flex-start;
+}
+
+.c div textarea {
+    margin-top: 1rem;
+    width: 100%;
+    background: white;
+    height: 7rem;
+}
+
+.c div button {
+    margin-top: 1rem;
+    align-self: flex-end;
+    width: 10rem;
+    height: 4rem;
+    font-family: cashselect;
+    font-weight: 400;
+    font-size: 1rem;
+    border: #439539 0.1rem solid;
+    background: #fff;
+    color: #439539;
+}
+
+.d div {
+    margin-left: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+textarea {
+    padding: 1rem;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ccc;
+}
+
+textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ccc;
+}
+
+textarea:-ms-input-placeholder {
+    color: #ccc;
+}
+
+textarea::placeholder {
+    font-family: cashselect;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.footer {
+
+    background: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.footer .awe {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer .awe div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.footer .awe div img {
+    width: 1.7rem;
+    height: 1.5rem;
+}
+
+
+.footer .bwe {
+
+    background: #439539;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer .cwe {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: #ccc;
+    width: 100%;
+    height: 5rem;
+}
+
+.inner {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.95;
+}
+
+.modal {
+
+    z-index: 2;
+    margin-top: 0;
+    position: fixed;
+    margin-left: 30%;
+    width: 40%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deposit-modal {
+
+    z-index: 2;
+    margin-top: 0rem;
+    position: fixed;
+    margin-left: 30%;
+    width: 40%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.withdraw-modal {
+
+    z-index: 2;
+    margin-top: 0rem;
+    position: fixed;
+    margin-left: 30%;
+    width: 40%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password-modal {
+
+    z-index: 2;
+    margin-top: 0rem;
+    position: fixed;
+    margin-left: 30%;
+    width: 40%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create1-modal {
+
+    z-index: 2;
+    margin-top: 0rem;
+
+    position: fixed;
+    margin-left: 27%;
+    width: 46%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create2-modal {
+
+    z-index: 2;
+    margin-top: 0rem;
+
+    position: fixed;
+    margin-left: 27%;
+    width: 46%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-profile {
+
+    z-index: 2;
+    margin-top: 0rem;
+
+    position: fixed;
+    margin-left: 27%;
+    width: 46%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal .iv {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.password-modal .iv {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.deposit-modal .iv {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.withdraw-modal .iv {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.create1-modal .iv {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.create2-modal .iv {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.edit-profile .iv {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.modal-head {
+    margin-top: 4rem;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.part-b img {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.log {
+
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: black;
+}
+
+.acc {
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #439539;
+}
+
+.acc-b {
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #439539;
+}
+
+.acc-b span {
+    color: #439539;
+}
+
+.input {
+    align-self: flex-start;
+    margin-top: 2rem;
+    width: 80%;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.create-input {
+    align-self: flex-start;
+    height: 10rem;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#res-input {
+    align-items: flex-end;
+}
+
+.create-input1 {
+    align-self: flex-start;
+    height: 8rem;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bankName {
+    width: 100%;
+    height: 3rem;
+    background: #ccc;
+    border: none;
+    padding-left: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+.edit-input {
+    align-self: flex-start;
+    height: 8rem;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.create-input div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.create-input1 div {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.create-input1 div #input {
+    width: 40%;
+    height: 3rem;
+    background: #ccc;
+    border: none;
+    padding-left: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+#select {
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    border: none;
+    padding-left: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+.select {
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    border: none;
+    padding-left: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+.create-input div input {
+    width: 80%;
+    height: 3rem;
+    background: #ccc;
+    border: none;
+    padding-left: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+.input input {
+    width: 100%;
+    height: 4rem;
+    background: #ccc;
+    border: none;
+    padding-left: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+.forgot {
+    margin-top: 0.1rem;
+    margin-right: 4.5rem;
+    align-self: flex-end;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: underline;
+}
+
+.for {
+    margin-top: 0.1rem;
+    align-self: flex-end;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #439539;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.for span {
+    text-decoration: none;
+}
+
+.iv button {
+    margin-top: 3.5rem;
+    width: 50%;
+    height: 3rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background: #439539;
+    border: 0;
+}
+
+.button-button {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.button-button button {
+
+    width: 40%;
+    height: 3rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background: #439539;
+    border: 0;
+}
+
+
+
+.sign {
+    margin-top: 0.5rem;
+    font-family: cashselect;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.sign span {
+    color: #439539;
+    text-decoration: underline;
+}
+
+.amount {
+    width: 70%;
+    height: 100%;
+    background: #ccc;
+    border: none;
+    padding-left: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+#amount {
+    margin-top: 2rem;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.edit-head {
+    margin-top: 2rem;
+    width: 80%;
+    height: 2.5rem;
+    background: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-head div {
+    background: white;
+    flex: 1;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #707070;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-account {
+    z-index: 2;
+    position: fixed;
+    width: 20%;
+    height: 80%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+
+.nav-account2 {
+    z-index: 2;
+    margin-top: 0;
+    position: fixed;
+    width: 20%;
+    height: 40rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   cursor: pointer;
+}
+
+.close-nav {
+    margin-top: 2rem;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.close-nav img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+
+}
+
+.nav-account button {
+    margin-top: 2rem;
+    width: 90%;
+    height: 3.5rem;
+    background: #439539;
+    color: #fff;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.nav-account div {
+    font-family: cashselect;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.nav-account2 button {
+    margin-top: 2rem;
+    width: 90%;
+    height: 3.5rem;
+    background: #439539;
+    color: #fff;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.nav-account2 div {
+    font-family: cashselect;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.my-predictions {
+    display: none;
+    z-index: 2;
+    margin-top: 5rem;
+    margin-left: 35%;
+    position: fixed;
+    width: 30%;
+    height: 80%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pred-head {
+    width: 100%;
+    height: 5rem;
+    background: #439539;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.pred-head img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.search {
+    width: 100%;
+    height: 2.5rem;
+    background: #707070;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.search img {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-left: 2rem;
+
+}
+
+.search input {
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #ccc;
+    width: 50%;
+    height: 100%;
+    border: none;
+    background: #707070;
+}
+
+.search input::placeholder {
+    color: #ccc;
+}
+
+.predict-container {
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+}
+
+.each-predict {
+    width: 100%;
+
+}
+
+.predict-date {
+    margin-top: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000;
+    margin-left: 2rem;
+}
+
+.predict {
+    margin-top: 1rem;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(220, 255, 220);
+}
+
+.predkey {
+
+    margin-top: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #439539;
+    margin-left: 2rem;
+}
+
+.predict-b {
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.predict-b img {
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.team-name {
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000;
+}
+
+.team .t {
+    font-family: cashselect;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #707070;
+}
+
+.predict-c {
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.predict-c .win {
+
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+.predict-c .win span {
+    color: #439539;
+}
+
+.predict-c div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #ccc;
+}
+
+.predict-c div img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.predict-d {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.predict-d button {
+    width: 40%;
+    height: 3.5rem;
+    background: green;
+    color: white;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.save {
+    display: none;
+    z-index: 2;
+    margin-top: 5rem;
+    position: fixed;
+    margin-left: 33%;
+    width: 35%;
+    height: 33rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save-close {
+    margin-top: 2rem;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.save-close img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.save-success {
+    margin-top: 4rem;
+    font-family: cashselect;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #439539;
+
+}
+
+.confirm {
+    margin-top: 1rem;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.pkey {
+    margin-top: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #000;
+}
+
+.pkey span {
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+    background: black;
+    padding: 0.1rem;
+}
+
+.phead {
+    margin-top: 2rem;
+    width: 65%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #707070;
+    color: white;
+}
+
+.phead div {
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.ppred {
+    border: 1px #ccc solid;
+    width: 65%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000;
+}
+
+.winn {
+    background: black;
+    width: 65%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.predict-now {
+    z-index: 2;
+    margin-top: 5rem;
+    position: fixed;
+    margin-left: 35%;
+    width: 30%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white
+}
+
+.predict-now .hea {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: #439539;
+    color: #fff;
+}
+
+.each-p {
+    margin-top: 2rem;
+    width: 100%;
+    height: 5rem;
+    background: rgb(220, 255, 220);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.each-p div {
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.each-p img {
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+.odds {
+    width: 100%;
+    height: 2rem;
+    font-family: cashselect;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #439539;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: rgb(220, 255, 220);
+}
+
+.winni {
+    width: 100%;
+    height: 3rem;
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cashselect;
+    font-weight: 400;
+    font-size: 1rem;
+    background: #000;
+    color: #fff;
+
+}
+
+.amont {
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.amont button {
+    flex: 1;
+    border: 1px #439539 solid;
+    border-left: 0.5px #fff solid;
+    border-right: 0.5px #fff solid;
+    background: #439539;
+    color: #fff;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.amt {
+    border: none;
+    width: 100%;
+    height: 2.5rem;
+    background: #fff;
+    color: black;
+    text-align: center;
+    font-family: cashselect;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.amt-btn {
+    width: 100%;
+    height: 3rem;
+    background: green;
+    color: white;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+}
+
+.see-btn {
+    width: 100%;
+    height: 3rem;
+    border: 2px #439539 solid;
+    background: white;
+    color: #439539;
+    font-family: cashselect;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.prediction-preview {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 5rem;
+    position: fixed;
+    margin-left: 20%;
+    width: 60%;
+    height: 80vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    display: none;
+
+}
+
+.prediict {
+    margin-top: 5rem;
+    position: fixed;
+    margin-left: 20%;
+    width: 60%;
+    height: 30rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.prediict .h {
+    width: 100%;
+    height: 5.5rem;
+    background: #439539;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prediction-preview .h {
+    width: 100%;
+    height: 5.5rem;
+    background: #439539;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.preh {
+    width: 70%;
+    height: 100%;
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.preh-a {
+    flex: 2.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.preh-a img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 1rem;
+}
+
+.preh-b {
+    flex: 7.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.preh-c {
+    flex: 7.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.formation {
+    margin-top: 3rem;
+    width: 85%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-a {
+    flex: 3;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.form-b {
+
+    flex: 7;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #439539;
+}
+
+.lineup {
+    margin-top: 3rem;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lineup-a {
+    flex: 3;
+   font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.lineup-b {
+
+    flex: 7;
+    font-family: cashselect;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #439539;
+    text-align: justify;
+    text-justify: auto;
+    word-break: break-all;
+
+}
+
+.subs {
+    margin-top: 3rem;
+    width: 85%;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.subs-a {
+    flex: 3;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.subs-b {
+    flex: 7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subs-b div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.subs-b div div {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.subs-b div div img {
+
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.sub-name {
+    font-family: cashselect;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #439539;
+    margin-left: 1rem;
+    word-break: break-all;
+}
+
+.form-select {
+    margin-top: 2rem;
+    width: 40%;
+    height: 4rem;
+    background: #fff;
+    padding-left: 1rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #439539;
+    border: 2px #439539 solid;
+}
+
+.select-contain {
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.se-line {
+    margin-top: 1.5rem;
+    font-family: cashselect;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #439539;
+
+}
+
+.se-pl {
+
+    font-family: cashselect;
+    font-weight: 200;
+    font-size: 1.3rem;
+    color: #ccc;
+    display: none;
+}
+
+.add {
+    background: green;
+    margin-top: 0.5rem;
+    font-family: cashselect;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: #fff;
+    width: 30%;
+    height: 4rem;
+    border: none;
+}
+
+.cancel {
+    display: none;
+}

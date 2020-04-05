@@ -1,0 +1,430 @@
+@font-face {
+    font-family: cashselect;
+    src: url(GOOGLESANS-BOLD.TTF);
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: cashselect;
+    src: url(GOOGLESANS-MEDIUM.TTF);
+   }
+
+.selection-modal {
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 20%;
+    width: 60%;
+    height: 80%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.choose {
+    font-family: cashselect;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: black;
+    margin-top: 4rem;
+    text-decoration: underline;
+}
+
+.selections {
+    margin-top: 4rem;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.selections .div {
+    width: 37%;
+    border: 3px #439539 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.select-first {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+}
+
+.select-second img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.select-stake img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.select-second {
+    margin-top: 0.1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #439539;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.select-stake {
+    margin-top: 0.1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.select-btn {
+    margin-top: 2rem;
+    width: 100%;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    background: #439539;
+    border: none;
+}
+
+.instruct {
+    position: fixed;
+    margin-top: 3rem;
+    margin-left: 20%;
+    width: 60%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instruct-text {
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #439539;
+    text-decoration: underline;
+}
+
+.instruction {
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #439539;
+    width: 60%;
+}
+
+.instruct button {
+    margin-top: 3rem;
+    width: 19rem;
+    height: 5rem;
+    background: #439539;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+    font-family: cashselect;
+}
+
+.game {
+    display: none;
+    position: fixed;
+    width: 40%;
+    background: white;
+    margin-left: 30%;
+
+}
+
+.game-time {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-time .div {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.game-time .span {
+    color: red;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.game-numbers {
+    width: 100%;
+    background: #439539;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numbers {
+
+    margin-top: 0.1rem;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.numbers div {
+    margin-bottom: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pper {
+    padding: 10px;
+    background: red;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+}
+
+.game-players {
+    width: 100%;
+    max-height: 20rem;
+    background-color: white;
+    overflow-y: scroll;
+
+}
+
+.game-players div {
+    width: 100%;
+    height: 5.5rem;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px #439539 solid;
+    cursor: pointer;
+}
+
+.deposit-option {
+
+    position: fixed;
+    margin-top: 3rem;
+    margin-left: 30%;
+    width: 40%;
+    height: 80%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opt {
+    width: 100%;
+    height: 17%;
+    background: #439539;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.deposit-pay {
+    margin-top: 4rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: black;
+    display: flex;
+}
+
+.deposit-pay span {
+    color: #439539;
+}
+
+.deposit-pay img {
+    width: 1.8rem;
+    height: 1.8rem;
+    align-self: center;
+}
+
+.pay-option {
+    margin-top: 3rem;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pay-option div {
+    width: 45%;
+    height: 8rem;
+    background: #439539;
+    color: #fff;
+    border: 3px #439539 solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.congrats {
+
+    position: fixed;
+    margin-top: 3rem;
+    margin-left: 30%;
+    width: 40%;
+    height: 80%;
+    background: #439539;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.congrats img {
+    margin-top: 3rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.con-cash {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.con-detail {
+    width: 75%;
+    color: #fff;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.congrats button {
+    margin-top: 1rem;
+    border-radius: 2rem;
+    width: 14rem;
+    height: 3.5rem;
+    color: #439539;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: white;
+    border: none;
+    font-family: cashselect;
+}
+
+
+.failed {
+
+    position: fixed;
+    margin-top: 3rem;
+    margin-left: 30%;
+    width: 40%;
+    height: 80%;
+    background: #740c0c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.failed img {
+    margin-top: 3rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.con-cash {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.con-detail {
+    width: 75%;
+    color: #fff;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.failed button {
+    margin-top: 1rem;
+    border-radius: 2rem;
+    width: 14rem;
+    height: 3.5rem;
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: white;
+    border: none;
+    font-family: cashselect;
+}
+
+.game-players div #a {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-players div #b {
+    background: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 4px #439539 solid;
+    color: #439539;
+}
+
+.game-players div #c {
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #439539;
+}

@@ -1,0 +1,628 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.t-head {
+    width: 100vw;
+    height: 20vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    font-family: 'SF Sports Night NS', Verdana, Geneva, Tahoma, sans-serif;
+    color: #439539;
+    font-size: 3vw;
+}
+
+.title span {
+    color: white;
+}
+
+.contain {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EFEFEF;
+}
+
+.b-title {
+    font-family: "Google Sans", Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.4vw;
+    margin-left: 1vw;
+}
+
+.t-head button {
+    font-family: "Google Sans", Verdana, Geneva, Tahoma, sans-serif;
+    border: 0;
+    margin-left: 40vw;
+    width: 15vw;
+    height: 8vh;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: white;
+    background: #439539;
+    border-radius: 5px;
+}
+
+.main-dashboard {
+    margin-top: 10vh;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background: #EFEFEF;
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 35vh;
+    background: #EFEFEF;
+
+}
+
+.div {
+    width: 19vw;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+
+}
+
+.img {
+    width: 4.5vw;
+    height: 4.5vw;
+    margin-top: 5.5vh;
+}
+
+.head-title button {
+    cursor: pointer;
+}
+
+.text {
+    margin-top: 2vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #439539;
+}
+
+.b-text {
+    margin-top: 4vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    color: #000;
+}
+
+.btn-text {
+    margin-top: 3vh;
+    width: 100%;
+    height: 6vh;
+    border: 0;
+    background: #439539;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: #fff;
+    cursor: pointer;
+}
+
+.b {
+    width: 100%;
+    height: 25vh;
+    ;
+}
+
+.add-result {
+    background: #fff;
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #439539;
+    cursor: pointer;
+}
+
+.inner {
+    position: fixed;
+    background: black;
+    opacity: 0.8;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.add-match {
+    z-index: 2;
+    position: fixed;
+    margin-top: 15vh;
+    width: 45vw;
+    height: 70vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-match {
+    z-index: 2;
+    position: fixed;
+    margin-top: 15vh;
+    width: 45vw;
+    height: 70vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectedPlayer {
+    z-index: 2;
+    position: fixed;
+    margin-top: 15vh;
+    width: 30vw;
+    height: 70vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.select-prediction {
+    z-index: 2;
+    position: fixed;
+   
+    width: 60vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.selected-head {
+    width: 100%;
+    height: 15vh;
+    background: #439539;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0.8;
+}
+.selected-b {
+    width: 100%;
+    height: 15vh;
+    background: #439539;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a1,.b2{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.club {
+    width: 3.7vw;
+    height: 3.7vw;
+    margin-left: 1.2vw;
+
+}
+
+.club-img {
+    margin-left: 10vw;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border-radius: 3.5vw;
+
+}
+.clubs-img {
+    margin-left: 2vw;
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    flex-direction: row;
+  
+    border-radius: 3.5vw;
+
+}
+
+.player-name {
+    margin-left: 0.5vw;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.player-team {
+    margin-left: 0.5vw;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: regular;
+    font-size: 1vw;
+    color: #fff;
+}
+
+.player-name-b {
+    margin-left: 0.5vw;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.player-team-b {
+    margin-left: 0.5vw;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: regular;
+    font-size: 1vw;
+    color: #fff;
+}
+.player-team span {
+    font-weight: bold;
+    color: black;
+}
+
+.players {
+    width: 100%;
+    height: 30vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.player {
+    width: 100%;
+    height: 13vh;
+    background:#439539;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.shirt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shirtNo {
+    margin-left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px #fff solid;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.3vw;
+    color: #fff;
+}
+
+.shirtName {
+    margin-left: 0.5vw;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.3vw;
+    color: #fff;
+}
+
+.result-container {
+    margin-top: 2vh;
+    width: 90%;
+    max-height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.result-item {
+    margin-top: 7vh;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px #439539 solid;
+}
+
+.result-text {
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #439539;
+}
+
+.b-result-text {
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: medium;
+    font-size: 1.1vw;
+    color: #000;
+}
+
+.result-btns {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.result-btns button {
+    border: 0;
+    width: 10vw;
+    height: 6vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.1vw;
+    background: #439539;
+    color: #fff;
+}
+
+.head {
+
+    margin-top: 0.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.head div {
+
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.9vw;
+}
+
+.close-img {
+    width: 2.7vw;
+    height: 2.7vw;
+    align-self: flex-end;
+    margin-right: 5vw;
+    margin-top: 2vh;
+}
+
+.s {
+    margin-top: 3vh;
+    width: 25vw;
+    height: 6vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.input {
+    margin-top: 1vw;
+    width: 25vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+input {
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    width: 10vw;
+    height: 6vh;
+}
+
+.dte {
+    margin-top: 1vw;
+    width: 25vw;
+    height: 6vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.save-btn {
+    margin-top: 1vw;
+    width: 25vw;
+    height: 8vh;
+    background: #439539;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.4vw;
+    color: #fff;
+}.select-form{
+    align-self: flex-start;
+    margin-top: 4vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: regular;
+    font-size: 1.4vw;
+    color: #439539;
+}
+.form{
+    margin-top:1vh;
+    align-self: flex-start;
+    color: #439539;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border:2px #439539 solid;
+    font-size: 1.3vw;
+}
+.form option{
+    color: #439539;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+.select-form,.form,.select-line,.line-div,.add-btn,.correct-btn{
+    margin-left:2vw;
+}
+.select-line{
+    align-self: flex-start;
+    margin-top: 4vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: regular;
+    font-size: 1.4vw;
+    color: #439539;
+}
+.rival{
+    font-weight: bold;
+}
+.line-div{
+    width: 30vw;
+    height: 10vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:regular;
+    font-size: 1.1vw;
+    color: #ccc;
+    align-self: flex-start;
+    margin-top:1vh;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.add-btn{
+  
+    align-self: flex-start;
+    margin-top: 1vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: regular;
+    font-size: 1.4vw;
+    color: #439539;
+   
+}
+.add-btn button{
+    width: 10vw;
+    height: 7vh;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.1vw;
+    color: #fff;
+    background: #439539;
+    border: 0;
+}
+button{
+    cursor: pointer;
+}
+.subs{
+    width:95%;
+    height: 23vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh; 
+    margin-left: 2vw;
+}
+.subs .first{flex:1;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.subs .second{
+    flex:1;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.subs .third{
+    flex:1;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.sub-in{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row; 
+}.sub-out{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row; 
+}
+.sub-in select,.sub-out select{
+width:15vw;
+height: 6vh;
+background: #439539;
+color:#fff;
+font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 1vw;
+    margin-left: 1vw;
+   
+
+}
+.so option{
+    color: #439539;
+    background:#fff;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 1vw;  
+}
+
+.sub-img{
+    width:2.5vw;
+    height: 2.5vw;
+}
+.sub-text{
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: regular;
+    font-size: 1.4vw;
+    color: #439539;
+}
+.sub-bt{
+  
+    margin-top: 2vh;
+    width:15vw;
+    height:7vh;
+    color:#439539 ;
+    background: white;
+    font-family: 'Google sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.4vw;
+border:2px #439539 solid;
+}
+select{
+    border:0;
+}
+.containe{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.cancel-select{
+    flex:1;
+}

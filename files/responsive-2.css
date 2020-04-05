@@ -1,0 +1,363 @@
+@media screen and (min-width: 320px) and (max-width: 350px) {
+
+.con-cash{
+    font-size: 2rem;
+}
+   
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+
+    .deposit-pay{
+       
+        font-size: 1.5rem;
+      
+    } 
+    .pay-option div{
+        
+font-size: 1.3rem;
+    }
+    
+    .pay-option{
+        width: 90%;
+    }
+    }
+@media screen and (min-width: 320px) and (max-width: 640px) {
+
+
+    .failed{
+    
+      width: 100%;
+      margin-left: 0%;
+    }
+   
+    .congrats{
+    
+        width: 100%;
+        margin-left: 0%;
+      }
+
+      .deposit-option{
+    
+        width: 100%;
+        margin-left: 0%;
+      }
+.instruct{
+    width: 100%;
+    margin-left: 0;
+}
+.instruct button{
+   font-size: 1.5rem;
+    margin-top: 2rem;
+width: 13rem;
+height: 4rem;
+}
+.instruction{
+    width: 75%;
+}
+.game{
+    width: 100%;
+    margin-left: 0;
+}
+.game-time .div{
+   
+    font-size: 1rem;
+}
+.game-time .span{
+    
+    font-size: 3rem;
+}
+
+.deposit-modal {
+    margin-left: 0%;
+    width: 100%;
+    
+}
+.log{
+    font-size: 1.5rem;
+}
+.withdraw-modal {
+    margin-left: 0%;
+    width: 100%;
+    
+}
+.password-modal {
+
+  
+    margin-left: 0%;
+    width: 100%;
+    
+}
+.password-modal .iv{
+    width: 90%;
+}
+.input{
+    width: 90%;
+   
+}
+.modal {
+
+    margin-left: 0%;
+    width: 100%;
+  
+}
+.modal .iv{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.create1-modal {
+    margin-top: 0;
+    margin-left: 0%;
+    width: 100%;
+    
+}
+.create-input{
+    flex-direction: column;
+    height: 20rem;
+}
+#res-input{
+    align-items: flex-start;
+}
+.create-input div input{
+    width: 100%;
+}
+.create2-modal{
+    margin-left: 0;
+    width: 100%;
+}
+
+.create2-modal .iv{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.edit-profile .iv{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-input1 div #input{
+    width: 45%;
+    font-size: 0.8rem;
+}
+.button-button button{
+    width:45%;
+    font-size: 0.9rem;
+}
+.edit-profile{
+    margin-left: 0%;
+    width:100%;
+}
+.nav-account{
+    width: 100%;
+    margin-left: 0;
+}
+.nav-account2{
+    width: 100%;
+    margin-left: 0;
+}
+}
+@media screen and (min-width: 641px) and (max-width: 960px) {
+   .instruction{
+       width: 80%;
+   }
+    .failed{
+    
+      width: 60%;
+      margin-left: 20%;
+    }
+   
+    .congrats{
+    
+        width: 60%;
+        margin-left: 20%;
+      }
+     
+      .deposit-option{
+    
+        width: 70%;
+        margin-left: 15%;
+      }
+      .game{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .deposit-modal {
+        margin-left: 20%;
+        width: 60%;
+    }
+    .withdraw-modal {
+        margin-left: 20%;
+        width: 60%;
+    }
+    .password-modal {
+
+  
+        margin-left: 15%;
+        width: 70%;
+        
+    }
+    .modal {
+
+        margin-left: 15%;
+        width: 70%;
+      
+    }
+    
+    .create1-modal {
+        margin-top: 0;
+        margin-left: 15%;
+        width: 70%;
+      
+    }
+    .create-input{
+        flex-direction: column;
+        height: 20rem;
+    }
+    #res-input{
+        align-items: flex-start;
+    }
+    .create-input div input{
+        width: 100%;
+    }
+    .create2-modal{
+        margin-left: 15%;
+        width:70%;
+    }
+    .edit-profile{
+        margin-left: 10%;
+        width:80%;
+    }
+    .create-input1 div #input{
+        width: 45%;
+        font-size: 0.9rem;
+    }
+    .nav-account{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .nav-account2{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width:960px) and (max-width:1020px){
+    .deposit-option{
+    
+        width: 70%;
+        margin-left: 15%;
+      } 
+      .password-modal {
+
+  
+        margin-left: 20%;
+        width: 60%;
+        
+    }
+    .modal {
+
+        margin-left: 15%;
+        width: 70%;
+      
+    }
+    .create1-modal {
+        margin-left: 15%;
+        width: 70%;
+        margin-top: 0;
+    }
+    .create2-modal{
+        margin-left: 20%;
+        width:60%;
+    }
+    .edit-profile{
+        margin-left: 10%;
+        width:80%;
+    }
+    .nav-account{
+      display: none;
+    }
+}
+@media screen and (min-width:1020px) and (max-width:1360px){
+    .deposit-option{
+    
+        width: 70%;
+        margin-left: 15%;
+      } 
+      .password-modal {
+
+  
+        margin-left: 15%;
+        width: 70%;
+        
+    }
+    .modal {
+
+        margin-left: 20%;
+        width: 60%;
+      
+    }
+    .create1-modal {
+        margin-top: 0;
+        margin-left: 20%;
+        width: 60%;
+        
+    }
+    .edit-profile{
+        margin-left: 15%;
+        width:70%;
+    }
+    .nav-account{
+        display: none;
+      }
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+
+    .sponsp-contain{
+        flex-direction: column;
+    }
+    #img-s{
+        margin-top: 1rem;
+    }
+    .d{
+        justify-content: center;
+    }
+    .contact{
+        height: 35rem;
+    }
+    .footer .awe{
+        flex-direction: column;
+    }
+    .footer .awe div{
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .footer .bwe {
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1.5rem;
+       
+    }
+}
+@media screen and (min-width:400px) and (max-width:800px){
+
+    .sponsp-contain{
+       width:80%;
+    }
+   
+}
+@media screen and (min-width:480px){
+    .footer .awe div{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+}

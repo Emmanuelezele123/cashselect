@@ -1,0 +1,168 @@
+
+@media screen and (min-width: 320px) and (max-width: 350px) {
+    .a {
+        flex: 1;
+    }
+
+    .b {
+        flex: 5;
+    }
+}
+
+@media screen and (min-width: 351px) and (max-width: 400px) {
+    .a {
+        flex: 2.5;
+    }
+
+    .b {
+        flex: 7.5;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    .a {
+        flex: 3;
+    }
+
+    .b {
+        flex: 7;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    .a {
+        flex: 4;
+    }
+
+    .b {
+        flex: 6;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 720px) {
+    .a {
+        flex: 5;
+    }
+
+    .b {
+        flex: 5;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 960px) {
+    .a {
+        flex: 6;
+    }
+
+    .b {
+        flex: 4;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1330px) {
+    .a {
+        flex: 7;
+    }
+
+    .b {
+        flex: 3;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 960px) {
+
+    .nav {
+        display: flex;
+    }
+
+    .button-container {
+        display: none;
+    }
+    .prof-d {
+        display: none;
+    }
+
+    .aa {
+        flex: 8;
+    }
+
+    .bp {
+        flex: 2;
+    }
+    .body .a {
+        display: none;
+     
+     
+     }
+     
+     .body .b {
+         flex: 1;
+     
+     }
+     
+     .body .c {
+         display: none;
+     }
+     .n-guard{
+        display: none;
+    }
+ .bs{
+     flex:2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+ }
+
+}
+@media screen and (min-width: 961px) and (max-width: 1300px) {
+.prof-d{
+    width: 80%;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+
+
+
+    .header .aa .text {
+        font-size: 1.7rem;
+        font-weight: bold;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+
+
+
+    .header .aa .text {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 1.1rem;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 750px) {
+ 
+  
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+   
+ .contact{
+     flex-direction: column;
+     height: 40rem;
+ }
+ .d div{
+    margin-left: 0;
+
+}
+.d{
+    align-items: center;
+}
+.c div #con {
+    margin-top: 1.5rem;
+}
+.d .con {
+    margin-top: 2rem;
+}
+
+ }
